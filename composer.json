@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Svanthuijl\\Icepay\\Providers\\IcepayServiceProvider"
+                "Svanthuijl\\Icepay\\IcepayServiceProvider"
             ],
             "aliases": {
                 "Icepay": "Svanthuijl\\Icepay\\Facades\\Icepay"
