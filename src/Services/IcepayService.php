@@ -17,7 +17,6 @@ class IcepayService
         $this->client->setApiSecret(config('services.icepay.api_secret'));
         $this->setCompletedURL(config('services.icepay.completed_url'));
         $this->setErrorURL(config('services.icepay.error_url'));
-        dd($this->client);
     }
 
     public function setApiKey($apiKey)
