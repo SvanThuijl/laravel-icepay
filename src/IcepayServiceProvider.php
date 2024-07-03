@@ -1,6 +1,6 @@
 <?php
 
-namespace Svanthuijl\Icepay\Providers;
+namespace Svanthuijl\Icepay;
 
 use Illuminate\Support\ServiceProvider;
 use Svanthuijl\Icepay\Services\IcepayService;
