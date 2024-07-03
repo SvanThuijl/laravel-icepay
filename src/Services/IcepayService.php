@@ -45,4 +45,8 @@ class IcepayService
     {
         return $this->client->payment->checkout($data);
     }
+    public function methods()
+    {
+        return $this->client->payment->getMyPaymentMethods();
+    }
 }
