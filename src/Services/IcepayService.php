@@ -43,7 +43,6 @@ class IcepayService
 
     public function checkout(array $data)
     {
-        dd('x');
         return $this->client->payment->checkout($data);
     }
 }
