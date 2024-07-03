@@ -47,6 +47,7 @@ class IcepayService
     }
     public function methods()
     {
-        return $this->client->payment->getMyPaymentMethods();
+        // @todo implement cache
+        return collect($this->client->payment->getMyPaymentMethods()->PaymentMethods);
     }
 }
